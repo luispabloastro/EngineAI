@@ -292,6 +292,7 @@
   bottom: 0;
   width: 100%;
   backdrop-filter: blur(var(--blur-amount));
+  justify-content: space-between;
 }
 
 .chat-input {
@@ -304,6 +305,7 @@
   outline: none;
   transition: border-color var(--transition-speed) ease;
   backdrop-filter: blur(var(--blur-amount));
+  margin-right: 10px;
 }
 
 .chat-input:focus {
@@ -319,16 +321,19 @@
   background-color: var(--primary-color);
   color: var(--text-color);
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 0;
   transition: background-color var(--transition-speed) ease;
   box-shadow: 0 0 10px var(--primary-glow);
+  flex-shrink: 0;
+  position: relative;
+  padding: 0;
 }
 
 .chat-send:hover {
@@ -339,6 +344,13 @@
 .chat-send svg {
   width: 18px;
   height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Start conversation button */

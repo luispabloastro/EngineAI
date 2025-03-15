@@ -93,13 +93,12 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-purple-400 mr-3 mt-0.5" />
-                <span className="text-white/70">+34 123 456 789</span>
+                <span className="text-white/70">+57 312 4365854</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-purple-400 mr-3 mt-0.5" />
                 <span className="text-white/70">
-                  Calle Innovación, 123<br />
-                  28001 Madrid, España
+                  Medellín, Colombia
                 </span>
               </li>
             </ul>
