@@ -2,28 +2,12 @@
 
 import { Calendar } from 'lucide-react';
 import Container from '../layout/Container';
-import Card from '../ui/Card';
-import { useEffect } from 'react';
-import Cal, { getCalApi } from '@calcom/embed-react';
 import AnimatedSection from '../ui/AnimatedSection';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 export default function Booking() {
   const t = useTranslations('Booking');
-
-  useEffect(() => {
-    // Initialize Cal when component mounts
-    (async function () {
-      const cal = await getCalApi();
-      // Configure the calendar UI
-      cal("ui", {
-        styles: { branding: { brandColor: "#7042f8" } },
-        hideEventTypeDetails: false,
-        layout: "month_view",
-      });
-    })();
-  }, []);
 
   return (
     <section className="py-24 relative overflow-hidden" id="booking">
@@ -63,7 +47,7 @@ export default function Booking() {
                   <h3 className="text-xl font-bold text-white">{t('selectTitle')}</h3>
                 </motion.div>
 
-                {/* Cal.com React Component */}
+                {/* Cal.com Iframe Replacement */}
                 <motion.div
                   className="rounded-xl overflow-hidden bg-[#030014]"
                   style={{ minHeight: '600px', width: '100%' }}
@@ -71,15 +55,11 @@ export default function Booking() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.6, duration: 0.5 }}
                 >
-                  <Cal
-                    calLink="digitalai"
-                    style={{ width: "100%", height: "100%", overflow: "hidden" }}
-                    config={{
-                      layout: "month_view",
-                      theme: "dark",
-                      branding: { brandColor: "#7042f8" }
-                    }}
-                  />
+                  <iframe
+                    src="https://cal.com/digitalai?theme=dark&brandColor=%237042f8"
+                    style={{ width: "100%", height: "600px", border: "none" }}
+                    title="Schedule Appointment"
+                  ></iframe>
                 </motion.div>
 
                 <motion.p
@@ -97,4 +77,4 @@ export default function Booking() {
       </Container>
     </section>
   );
-} 
+}
