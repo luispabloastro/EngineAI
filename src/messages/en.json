@@ -1,0 +1,127 @@
+{
+    "Metadata": {
+        "title": "Paradigmio - Transforming Businesses with Artificial Intelligence",
+        "description": "Custom AI solutions to optimize processes, increase productivity, and boost innovation in your company."
+    },
+    "Header": {
+        "home": "Home",
+        "cta": "Start Now"
+    },
+    "Hero": {
+        "badge": "AI Innovation",
+        "titlePrefix": "Transforming the Future of Your",
+        "titleSuffix": "Business",
+        "description": "At Paradigmio, we combine creativity and technology to create intelligent solutions that drive your exponential growth.",
+        "cta_primary": "Explore Services",
+        "cta_secondary": "Schedule Demo"
+    },
+    "Services": {
+        "title": "Our Solutions",
+        "subtitle": "Cutting-edge technology adapted to your needs",
+        "automation": {
+            "title": "Automation & AI Agents",
+            "description": "Intelligent workflows and autonomous agents working 24/7 to optimize your operations."
+        },
+        "software": {
+            "title": "Software Development",
+            "description": "Custom applications and robust SaaS platforms designed to scale your business."
+        },
+        "web": {
+            "title": "Web Design & Development",
+            "description": "Immersive digital experiences and high-impact websites that convert visitors into customers."
+        }
+    },
+    "Process": {
+        "title": "How It",
+        "titleAccent": "Works",
+        "subtitle": "Our process is designed to guarantee effective solutions adapted to your needs.",
+        "steps": {
+            "1": {
+                "title": "Initial Consultation",
+                "description": "We analyze your business to identify AI implementation opportunities."
+            },
+            "2": {
+                "title": "Solution Design",
+                "description": "We create a custom proposal based on your specific needs."
+            },
+            "3": {
+                "title": "Development",
+                "description": "We implement the solution using the most advanced AI technologies."
+            },
+            "4": {
+                "title": "Integration",
+                "description": "We connect the solution with your existing systems for seamless operation."
+            },
+            "5": {
+                "title": "Continuous Support",
+                "description": "We offer maintenance and continuous improvements to optimize performance."
+            }
+        }
+    },
+    "Technologies": {
+        "title": "Technologies We",
+        "titleAccent": "Master",
+        "subtitle": "We use the most advanced tools and platforms to develop high-performance AI solutions."
+    },
+    "Booking": {
+        "title": "Schedule your",
+        "titleAccent": "Consultation",
+        "subtitle": "Book a free session with our experts to analyze how AI can transform your business.",
+        "selectTitle": "Select a date and time",
+        "disclaimer": "* You will receive an email confirmation with meeting details."
+    },
+    "Contact": {
+        "title": "Still have",
+        "titleAccent": "questions?",
+        "subtitle": "Contact us and an AI expert will help you resolve all your doubts.",
+        "form": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "website": "Website (optional)",
+            "message": "Message",
+            "submit": "Send Message",
+            "success": "Thanks for contacting us! We will respond shortly."
+        }
+    },
+    "Theme": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
+    "Footer": {
+        "description": "Transforming businesses with custom AI solutions to optimize processes and boost innovation.",
+        "company": "Company",
+        "legal": "Legal",
+        "contact": "Contact",
+        "links": {
+            "terms": "Terms & Conditions",
+            "privacy": "Privacy Policy",
+            "cookies": "Cookies Policy",
+            "legal": "Legal Notice"
+        },
+        "rights": "© {year} Paradigmio. All rights reserved."
+    },
+    "Terms": {
+        "title": "Terms and Conditions",
+        "introduction": "Welcome to Paradigmio. By accessing our website and using our services, you agree to comply with and be bound by the following terms and conditions.",
+        "sections": {
+            "userObligations": {
+                "title": "User Obligations",
+                "content": "You agree to use our services only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use and enjoyment of Paradigmio."
+            },
+            "intellectualProperty": {
+                "title": "Intellectual Property",
+                "content": "All content included on this site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the property of Paradigmio or its content suppliers and protected by international copyright laws."
+            },
+            "limitations": {
+                "title": "Limitations of Liability",
+                "content": "Paradigmio will not be liable for any damages of any kind arising from the use of this site, including, but not limited to direct, indirect, incidental, punitive, and consequential damages."
+            },
+            "contact": {
+                "title": "Contact Us",
+                "content": "If you have any questions about these Terms, please contact us at dgitalengineerng@gmail.com."
+            }
+        }
+    }
+}

@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Container from '../layout/Container';
+import { useTranslations } from 'next-intl';
 
 export default function Technologies() {
   const technologies = [
@@ -20,6 +21,8 @@ export default function Technologies() {
     { name: 'MongoDB', logo: '/mongodblogo.png' },
   ];
 
+  const t = useTranslations('Technologies');
+
   // For the continuous marquee effect
   const marqueeRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<number | null>(null);
@@ -31,21 +34,21 @@ export default function Technologies() {
     const marqueeWidth = marquee.scrollWidth / 2; // Half because we have duplicated items
     let position = 0;
     const speed = 0.5; // Adjust speed as needed
-    
+
     const animate = () => {
       position -= speed;
-      
+
       // Reset position when all items have moved off screen
       if (Math.abs(position) >= marqueeWidth) {
         position = 0;
       }
-      
+
       marquee.style.transform = `translateX(${position}px)`;
       animationRef.current = requestAnimationFrame(animate);
     };
-    
+
     animationRef.current = requestAnimationFrame(animate);
-    
+
     return () => {
       if (animationRef.current) {
         cancelAnimationFrame(animationRef.current);
@@ -54,23 +57,23 @@ export default function Technologies() {
   }, []);
 
   return (
-    <section className="py-20 border-t border-purple-800/30" id="technologies">
+    <section className="py-24 relative overflow-hidden" id="technologies">
       <Container>
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Tecnologías que <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">Dominamos</span>
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">
+            {t('title')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">{t('titleAccent')}</span>
           </h2>
-          <p className="text-white/70 max-w-2xl mx-auto">
-            Utilizamos las herramientas y plataformas más avanzadas para desarrollar soluciones de IA de alto rendimiento.
+          <p className="text-slate-400 max-w-2xl mx-auto font-light">
+            {t('subtitle')}
           </p>
         </div>
       </Container>
-      
+
       {/* Marquee container */}
       <div className="relative w-full overflow-hidden py-12 bg-black/30">
         <div className="flex whitespace-nowrap">
           {/* Duplicate the items to create a seamless loop */}
-          <div 
+          <div
             ref={marqueeRef}
             className="flex items-center space-x-16 px-8 inline-flex"
           >
@@ -88,7 +91,7 @@ export default function Technologies() {
                 </div>
               </div>
             ))}
-            
+
             {/* Duplicate set for seamless looping */}
             {technologies.map((tech, index) => (
               <div key={`tech2-${index}`} className="marquee-item flex-shrink-0">

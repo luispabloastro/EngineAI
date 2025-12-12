@@ -1,0 +1,127 @@
+{
+    "Metadata": {
+        "title": "Paradigmio - Transformamos Negocios con Inteligencia Artificial",
+        "description": "Soluciones de IA personalizadas para optimizar procesos, aumentar la productividad y potenciar la innovación en tu empresa."
+    },
+    "Header": {
+        "home": "Inicio",
+        "cta": "Comienza ahora"
+    },
+    "Hero": {
+        "badge": "AI Innovation",
+        "titlePrefix": "Transformando el Futuro de tu",
+        "titleSuffix": "Negocio",
+        "description": "En Paradigmio, combinamos creatividad y tecnología para crear soluciones inteligentes que impulsan tu crecimiento exponencial.",
+        "cta_primary": "Explorar Servicios",
+        "cta_secondary": "Agendar Demo"
+    },
+    "Services": {
+        "title": "Nuestras Soluciones",
+        "subtitle": "Tecnología de vanguardia adaptada a tus necesidades",
+        "automation": {
+            "title": "Automatización & Agentes IA",
+            "description": "Flujos de trabajo inteligentes y agentes autónomos que trabajan 24/7 para optimizar tus operaciones."
+        },
+        "software": {
+            "title": "Desarrollo de Software",
+            "description": "Aplicaciones a medida y plataformas SAAS robustas diseñadas para escalar tu negocio."
+        },
+        "web": {
+            "title": "Diseño & Desarrollo Web",
+            "description": "Experiencias digitales inmersivas y sitios web de alto impacto que convierten visitantes en clientes."
+        }
+    },
+    "Process": {
+        "title": "Cómo",
+        "titleAccent": "Funciona",
+        "subtitle": "Nuestro proceso está diseñado para garantizar soluciones efectivas y adaptadas a tus necesidades.",
+        "steps": {
+            "1": {
+                "title": "Consultoría Inicial",
+                "description": "Analizamos tu negocio para identificar oportunidades de implementación de IA."
+            },
+            "2": {
+                "title": "Diseño de Solución",
+                "description": "Creamos una propuesta personalizada basada en tus necesidades específicas."
+            },
+            "3": {
+                "title": "Desarrollo",
+                "description": "Implementamos la solución utilizando las tecnologías de IA más avanzadas."
+            },
+            "4": {
+                "title": "Integración",
+                "description": "Conectamos la solución con tus sistemas existentes para un funcionamiento fluido."
+            },
+            "5": {
+                "title": "Soporte Continuo",
+                "description": "Ofrecemos mantenimiento y mejoras continuas para optimizar el rendimiento."
+            }
+        }
+    },
+    "Technologies": {
+        "title": "Tecnologías que",
+        "titleAccent": "Dominamos",
+        "subtitle": "Utilizamos las herramientas y plataformas más avanzadas para desarrollar soluciones de IA de alto rendimiento."
+    },
+    "Booking": {
+        "title": "Agenda tu",
+        "titleAccent": "ConsultorIA",
+        "subtitle": "Reserva una sesión gratuita con nuestros expertos para analizar cómo la IA puede transformar tu negocio.",
+        "selectTitle": "Selecciona una fecha y hora",
+        "disclaimer": "* Recibirás una confirmación por correo electrónico con los detalles de la reunión."
+    },
+    "Contact": {
+        "title": "¿Aún tienes",
+        "titleAccent": "preguntas?",
+        "subtitle": "Contáctanos y un experto en IA te ayudará a resolver todas tus dudas.",
+        "form": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo Electrónico",
+            "website": "Sitio Web (opcional)",
+            "message": "Mensaje",
+            "submit": "Enviar Mensaje",
+            "success": "¡Gracias por contactarnos! Te responderemos a la brevedad."
+        }
+    },
+    "Theme": {
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema"
+    },
+    "Footer": {
+        "description": "Transformamos negocios con soluciones de inteligencia artificial personalizadas para optimizar procesos y potenciar la innovación.",
+        "company": "Empresa",
+        "legal": "Legal",
+        "contact": "Contacto",
+        "links": {
+            "terms": "Términos y Condiciones",
+            "privacy": "Política de Privacidad",
+            "cookies": "Política de Cookies",
+            "legal": "Aviso Legal"
+        },
+        "rights": "© {year} Paradigmio. Todos los derechos reservados."
+    },
+    "Terms": {
+        "title": "Términos y Condiciones",
+        "introduction": "Bienvenido a Paradigmio. Al acceder a nuestro sitio web y utilizar nuestros servicios, aceptas cumplir y estar sujeto a los siguientes términos y condiciones.",
+        "sections": {
+            "userObligations": {
+                "title": "Obligaciones del Usuario",
+                "content": "Aceptas utilizar nuestros servicios solo para fines legales y de una manera que no infrinja los derechos de, restrinja o inhiba el uso y disfrute de Paradigmio por parte de cualquier otra persona."
+            },
+            "intellectualProperty": {
+                "title": "Propiedad Intelectual",
+                "content": "Todo el contenido incluido en este sitio, como texto, gráficos, logotipos, iconos de botones, imágenes, clips de audio, descargas digitales, compilaciones de datos y software, es propiedad de Paradigmio o de sus proveedores de contenido y está protegido por las leyes internacionales de derechos de autor."
+            },
+            "limitations": {
+                "title": "Limitaciones de Responsabilidad",
+                "content": "Paradigmio no será responsable de ningún daño de ningún tipo que surja del uso de este sitio, incluidos, entre otros, daños directos, indirectos, incidentales, punitivos y consecuentes."
+            },
+            "contact": {
+                "title": "Contáctanos",
+                "content": "Si tienes alguna pregunta sobre estos Términos, contáctanos en dgitalengineerng@gmail.com."
+            }
+        }
+    }
+}
