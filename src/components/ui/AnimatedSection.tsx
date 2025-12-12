@@ -1,7 +1,7 @@
 'use client';
 
 import { ReactNode, useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, type TargetAndTransition } from 'framer-motion';
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -13,11 +13,7 @@ interface AnimatedSectionProps {
   id?: string;
 }
 
-interface AnimationProps {
-  opacity: number;
-  y?: number;
-  x?: number;
-}
+type AnimationProps = TargetAndTransition;
 
 export default function AnimatedSection({
   children,

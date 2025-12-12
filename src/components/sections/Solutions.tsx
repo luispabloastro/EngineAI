@@ -1,8 +1,7 @@
 'use client';
 
-import { Bot, Cpu, Globe, Rocket } from 'lucide-react';
+import { Bot, Cpu, Globe } from 'lucide-react';
 import Container from '../layout/Container';
-import Card, { CardTitle, CardDescription } from '../ui/Card';
 import AnimatedSection from '../ui/AnimatedSection';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';

@@ -1,6 +1,5 @@
 'use client';
 
-import { Link } from '@/i18n/routing';
 import Container from '../layout/Container';
 import Button from '../ui/Button';
 import AnimatedSection from '../ui/AnimatedSection';
@@ -52,18 +51,14 @@ export default function Hero() {
 
           <AnimatedSection delay={0.4} duration={0.7}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link href="/agenda">
-                <Button size="lg" className="group relative overflow-hidden text-lg px-8 py-4 bg-white text-black hover:bg-gray-200 transition-all duration-300 rounded-full font-semibold tracking-tight">
-                  <span className="relative z-10">{t('cta_secondary')}</span>
-                  <div className="absolute inset-0 h-full w-full scale-0 rounded-full transition-all duration-300 group-hover:scale-100 group-hover:bg-purple-500/10" />
-                </Button>
-              </Link>
+              <Button size="lg" className="group relative overflow-hidden text-lg px-8 py-4 bg-white text-black hover:bg-gray-200 transition-all duration-300 rounded-full font-semibold tracking-tight cursor-default">
+                <span className="relative z-10">{t('cta_secondary')}</span>
+                <div className="absolute inset-0 h-full w-full scale-0 rounded-full transition-all duration-300 group-hover:scale-100 group-hover:bg-purple-500/10" />
+              </Button>
 
-              <Link href="/soluciones">
-                <Button variant="outline" size="lg" className="text-lg px-8 py-4 rounded-full border-white/20 hover:bg-white/10 hover:border-white/40 backdrop-blur-md transition-all">
-                  {t('cta_primary')}
-                </Button>
-              </Link>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-4 rounded-full border-white/20 hover:bg-white/10 hover:border-white/40 backdrop-blur-md transition-all cursor-default">
+                {t('cta_primary')}
+              </Button>
             </div>
           </AnimatedSection>
         </div>

@@ -68,22 +68,22 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group">
+                <span className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group cursor-default">
                   <span className="w-0 group-hover:w-2 h-[1px] bg-cyan-400 mr-0 group-hover:mr-2 transition-all duration-300"></span>
                   {t('links.privacy')}
-                </Link>
+                </span>
               </li>
               <li>
-                <Link href="#" className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group">
+                <span className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group cursor-default">
                   <span className="w-0 group-hover:w-2 h-[1px] bg-cyan-400 mr-0 group-hover:mr-2 transition-all duration-300"></span>
                   {t('links.cookies')}
-                </Link>
+                </span>
               </li>
               <li>
-                <Link href="#" className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group">
+                <span className="text-slate-400 hover:text-cyan-400 transition-colors flex items-center group cursor-default">
                   <span className="w-0 group-hover:w-2 h-[1px] bg-cyan-400 mr-0 group-hover:mr-2 transition-all duration-300"></span>
                   {t('links.legal')}
-                </Link>
+                </span>
               </li>
             </ul>
             <p className="text-slate-500 text-sm mt-8">
